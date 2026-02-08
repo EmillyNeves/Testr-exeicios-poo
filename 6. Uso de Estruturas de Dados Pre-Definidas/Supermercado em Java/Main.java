@@ -44,8 +44,8 @@ public class Main {
                     sistema.addItem(nomeProdutoItem, qtdItem);
                     break;
                     
-                case "FINALIZAR_COMPRA":
-                    sistema.finalizarCompra();
+                case "finaliza_COMPRA":
+                    sistema.finalizaCompra();
                     break;
                     
                 case "REVENUE":

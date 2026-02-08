@@ -62,11 +62,11 @@ void Sistema::addItem(string nomeProduto, int quantidade) {
     }
 }
 
-void Sistema::finalizarCompra() {
+void Sistema::finalizaCompra() {
     if (compraAtual != nullptr) {
         double total = compraAtual->calcularTotal();
         cout << fixed << setprecision(2) << total << endl;
-        compraAtual->finalizarCompra();
+        compraAtual->finalizaCompra();
         compras.push_back(compraAtual);
         compraAtual = nullptr;
     }

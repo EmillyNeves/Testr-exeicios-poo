@@ -47,11 +47,11 @@ public class Sistema {
         }
     }
 
-    public void finalizarCompra() {
+    public void finalizaCompra() {
         if (compraAtual != null) {
             double total = compraAtual.calcularTotal();
             System.out.printf(Locale.US,"%.2f%n", total);
-            compraAtual.finalizarCompra();
+            compraAtual.finalizaCompra();
             compras.add(compraAtual);
             compraAtual = null;
         }

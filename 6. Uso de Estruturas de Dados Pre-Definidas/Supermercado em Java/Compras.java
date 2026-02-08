@@ -28,7 +28,7 @@ public class Compras {
         return valorTotal;
     }
 
-    public void finalizarCompra() {
+    public void finalizaCompra() {
         for (Map.Entry<Produto, Integer> entry : produtos.entrySet()) {
             entry.getKey().removerEstoque(entry.getValue());
         }

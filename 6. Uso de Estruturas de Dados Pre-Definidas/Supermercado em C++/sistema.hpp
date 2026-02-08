@@ -25,7 +25,7 @@ public:
     void adquirirProduto(string nomeProduto, int quantidade);
     void iniciarCompra(string cpf);
     void addItem(string nomeProduto, int quantidade);
-    void finalizarCompra();
+    void finalizaCompra();
     void revenue();
     void maisVendido();
     void melhorCliente();

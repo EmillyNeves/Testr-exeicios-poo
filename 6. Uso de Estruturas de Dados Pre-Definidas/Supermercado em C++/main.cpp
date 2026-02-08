@@ -40,8 +40,8 @@ int main() {
             cin >> nome >> quantidade;
             sistema.addItem(nome, quantidade);
         }
-        else if (comando == "FINALIZAR_COMPRA") {
-            sistema.finalizarCompra();
+        else if (comando == "finaliza_COMPRA") {
+            sistema.finalizaCompra();
         }
         else if (comando == "REVENUE") {
             sistema.revenue();

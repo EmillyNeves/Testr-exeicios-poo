@@ -23,7 +23,7 @@ double Compra::calcularTotal() {
     return valorTotal;
 }
 
-void Compra::finalizarCompra() {
+void Compra::finalizaCompra() {
     for (auto& par : produtos) {
         par.first->removerEstoque(par.second);
     }

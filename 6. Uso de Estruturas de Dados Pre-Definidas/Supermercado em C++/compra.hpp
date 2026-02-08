@@ -19,7 +19,7 @@ public:
 
     void adicionarProduto(Produto* produto, int quantidade);
     double calcularTotal();
-    void finalizarCompra();
+    void finalizaCompra();
 
     Cliente* getCliente() const;
     std::vector<std::pair<Produto*, int>> getProdutos() const;
